@@ -31,6 +31,7 @@ module.exports = {
 module.exports = {
   mode: 'production', //线上代码
   devtool: 'cheap-module-source-map', //线上代码一般不用devtool，如果要定位错误，用这个配置
+  entry: {
     main: './src/index.js'
   },
   output: {
